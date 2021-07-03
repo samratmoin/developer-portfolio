@@ -1,0 +1,36 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.banner-area {
+  background-image: url(/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.flexible-container {
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+}
+
+.half-width h1 {
+  font-size: 3rem;
+}
+.half-width span {
+  color: #ffa500;
+}
+
+.link-text {
+  text-decoration: none;
+  background-image: linear-gradient(#ff9571, #ff6d4f);
+  padding: 10px 40px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+}
