@@ -5,9 +5,9 @@ body {
 }
 
 .banner-area {
-  background-image: url(/images/exp-bg.png);
+  background-image: url(/images/top-banner.png);
   background-repeat: no-repeat;
-  background-position: left top;
+  margin-bottom: 120px;
 }
 
 .flexible-container {
@@ -33,4 +33,14 @@ body {
   color: #fff;
   font-weight: bold;
   border-radius: 5px;
+}
+
+.dream-area {
+  background-image: url(/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.dream-title {
+  font-size: 40px;
 }
